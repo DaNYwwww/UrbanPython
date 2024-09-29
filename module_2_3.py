@@ -3,4 +3,6 @@ i = 0
 while my_list[i] >= 0:
     if i != len(my_list)-1 and my_list[i] != 0:
         print(my_list[i])
+    else:
+        break
     i += 1
